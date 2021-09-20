@@ -1,0 +1,194 @@
+    /***************************TOP SECTION*****************************/
+    
+    body {
+        font-family: 'Montserrat';
+        text-align: center;
+    }
+    
+    p {
+        color: #8f8f8f;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Montserrat';
+    }
+    
+    h2 {
+        font-weight: 600;
+    }
+    /*Heading*/
+    
+    .big-heading {
+        font-weight: 900;
+        font-size: 3rem;
+        line-height: 1.5;
+        color: white;
+    }
+    
+    .section-heading {
+        font-size: 3rem;
+        line-height: 1.5;
+    }
+    /*Containers*/
+    
+    .container-fluid {
+        padding: 7% 15%;
+    }
+    /*******SECTION COLORS*********/
+    
+    .colored-section {
+        background-color: #ff4c68;
+        color: white;
+    }
+    
+    .white-section {
+        background-color: white;
+    }
+    /************************NAVIGATION BAR***************************/
+    
+    .navbar-brand {
+        font-family: "Ubuntu";
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    
+    .navbar {
+        padding: 0 0 4.5rem;
+        text-align: right;
+    }
+    
+    .nav-item {
+        padding: 0 18px;
+    }
+    
+    .nav-link {
+        font-family: 'Montserrat';
+        font-size: 1.2rem;
+        font-weight: 300;
+    }
+    /*******************DOWNLOAD BUTTONS***************************/
+    
+    .dwd-button {
+        border-radius: 15%;
+    }
+    
+    .download-button {
+        margin: 5% 3% 5% 0;
+    }
+    /*************************TITLE SECTION******************************/
+    
+    #title .container-fluid {
+        padding-top: 3%;
+        text-align: left;
+    }
+    /*DOG PIC*/
+    
+    .title-image {
+        width: 60%;
+        transform: rotate(25deg);
+        position: absolute;
+        left: 20%;
+    }
+    /***********************FEATURES SECTION**************************/
+    
+    #features {
+        position: relative;
+    }
+    
+    .feature-title {
+        font-family: 'Montserrat';
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    
+    .icon-color {
+        font-size: 4rem;
+        color: #ef8172;
+        margin-bottom: 1rem;
+    }
+    
+    .icon-color:hover {
+        font-size: 5rem;
+        color: #ff4c68;
+    }
+    /******************TESTIMONIALS SECTION***********************/
+    
+    #testimonials {
+        background-color: #ef8172;
+    }
+    
+    .testimonial-text {
+        font-size: 3rem;
+        line-height: 1.5;
+    }
+    
+    .testimonial-image {
+        width: 15%;
+        border-radius: 100%;
+        margin: 20px;
+    }
+    /******************PRESS SECTION***********************/
+    
+    #press {
+        background-color: #ef8172;
+        padding-bottom: 5%;
+    }
+    
+    .press-logo {
+        width: 15%;
+        margin: 20px 20px 0 20px;
+    }
+    /******************PRICING SECTION***********************/
+    
+    #pricing {
+        padding: 100px;
+    }
+    
+    .pricing-heading {
+        font-family: 'Montserrat';
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    
+    .price-text {
+        font-size: 3rem;
+        line-height: 1.5;
+    }
+    
+    .pricing-column {
+        padding: 3% 2%;
+    }
+    /***********************MEDIA QUERY*************************/
+    
+    @media (max-width: 1000px) {
+        #title {
+            text-align: center;
+        }
+        .title-image {
+            position: static;
+        }
+        #title .container-fluid {
+            text-align: center;
+        }
+    }
+    
+    @media (max-width: 974px) {
+        .title-image {
+            transform: rotate(0);
+        }
+    }
+    /******************************Call to Action (CTA)************************/
+    /******************************FOOTER******************************/
+    
+    .footer-icon {
+        padding: 3% 1%;
+    }
+    
+    .link-color {
+        color: grey;
+    }
